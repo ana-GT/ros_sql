@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ros_sql</name>
+  <version>1.1.0</version>
+  <description>Upgrading to kinetic</description>
+  <maintainer email="ana@traclabs.com">Ana C.H.Q.</maintainer>
+  <license>TODO</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>message_generation</depend>
+  <depend>message_runtime</depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>rosmsg</depend>
+  <depend>rosbag</depend>
+  <depend>rostopic</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+
+  <!-- Python -->
+  <depend>python-sqlalchemy</depend>
+
+</package>
